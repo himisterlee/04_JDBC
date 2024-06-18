@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment/>
+    <!-- 키 -->
+        <entry key="selectEmpByFamilyName">
+            <!-- 벨류 -->
+            select
+            *
+            from
+            employee
+            where
+            emp_name like concat(?, '%')
+        </entry>
+</properties>
